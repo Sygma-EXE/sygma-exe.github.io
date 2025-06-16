@@ -1,0 +1,45 @@
+/*commun part*/
+body {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right,#BE18CD,#7411b6);
+    color: white;
+}
+
+header {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.navigation {
+    background-color:rgba(255, 255, 255, 0.6);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.navigation a {
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.navigation a.active {
+    color:blueviolet;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    background-color: cornsilk;
+}
+
+footer {
+    background-color: rgba(56, 56, 56, 0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: white;
+}
+/*------------*/
